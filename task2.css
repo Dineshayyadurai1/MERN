@@ -1,0 +1,23 @@
+.header {
+    background-color: blue;
+    height: 400px;
+    width: 500px;
+    border-radius: 0
+    transition: border-radius;
+    transition-duration: 2s;
+}
+.header:hover
+{border-radius: 500%;
+    background-color: brown;
+
+
+
+}
+.animationheader {
+    height: 100px;
+    width: 200px;
+   background-color: brown;    
+   position: relative; 
+   left: 0px;         
+    animation-name: firstanimation;
+}   
